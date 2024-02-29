@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sitecharlie</title>
+</head>
+
+<body>
+
+    <h1>Welcome {{username}} to sitecharlie</h1>
+
+    <!-- <ul>
+        {% for user in whys %}
+        <li>{{user}}</li>
+        {% empty %}
+
+        <li>No user</li>
+
+        {% endfor %}
+
+    </ul> -->
+    <a href="{% url 'sitecharlie:login' %}">Login</a>
+
+
+</body>
+
+</html>
